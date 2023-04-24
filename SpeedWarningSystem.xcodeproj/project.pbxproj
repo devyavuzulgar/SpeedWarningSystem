@@ -80,6 +80,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2F2E5D5529F66ED000E6E9F3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2F8060AC29F2B56100697088 /* AppDelegate.swift */,
+				2F8060AE29F2B56100697088 /* SceneDelegate.swift */,
+				2F8060B229F2B56100697088 /* Main.storyboard */,
+				2F8060B529F2B56200697088 /* Assets.xcassets */,
+				2F8060B729F2B56200697088 /* LaunchScreen.storyboard */,
+				2F8060BA29F2B56200697088 /* Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2F2E5D5629F66F3400E6E9F3 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				2F2E5D5729F66F4B00E6E9F3 /* Voice */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		2F2E5D5729F66F4B00E6E9F3 /* Voice */ = {
+			isa = PBXGroup;
+			children = (
+				2F8060E129F2D1C000697088 /* funnyVoiceAlert.m4a */,
+			);
+			path = Voice;
+			sourceTree = "<group>";
+		};
 		2F8060A029F2B56100697088 = {
 			isa = PBXGroup;
 			children = (
@@ -103,15 +132,10 @@
 		2F8060AB29F2B56100697088 /* SpeedWarningSystem */ = {
 			isa = PBXGroup;
 			children = (
-				2F8060E129F2D1C000697088 /* funnyVoiceAlert.m4a */,
-				2F8060AC29F2B56100697088 /* AppDelegate.swift */,
-				2F8060AE29F2B56100697088 /* SceneDelegate.swift */,
 				2F8060B029F2B56100697088 /* HomeViewController.swift */,
 				2F8060DC29F2B72100697088 /* MapViewController.swift */,
-				2F8060B229F2B56100697088 /* Main.storyboard */,
-				2F8060B529F2B56200697088 /* Assets.xcassets */,
-				2F8060B729F2B56200697088 /* LaunchScreen.storyboard */,
-				2F8060BA29F2B56200697088 /* Info.plist */,
+				2F2E5D5629F66F3400E6E9F3 /* Helper */,
+				2F2E5D5529F66ED000E6E9F3 /* Supporting Files */,
 			);
 			path = SpeedWarningSystem;
 			sourceTree = "<group>";
@@ -447,7 +471,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 9N9RKH6XXL;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = SpeedWarningSystem/Info.plist;
+				INFOPLIST_FILE = "SpeedWarningSystem/Supporting Files/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -474,7 +498,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 9N9RKH6XXL;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = SpeedWarningSystem/Info.plist;
+				INFOPLIST_FILE = "SpeedWarningSystem/Supporting Files/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
